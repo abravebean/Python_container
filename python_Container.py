@@ -44,5 +44,13 @@ if len (students) == len(foods):
         for student_dict in cohort:
             print(student_dict)
 #7
+awesome_students = []
+for student in students:
+   awesome_students.append(student + " is awesome!")
+for student in awesome_students:
+   print(student)
 
 #8
+for food in foods:
+   if "a" in food:
+      print(food)
