@@ -1,11 +1,6 @@
-# nums = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-
-# squares= []
-# for n in nums:
-#     squares.append(n*n)
-# print(squares)
 
 
+#variables 
 fruit = ('apples', 'bananas', 'oranges')
 fruit_copy = fruit[:]
 print(fruit_copy)
@@ -17,11 +12,13 @@ print(students[-1])
 foods = ("chicken","cheese","cake")
 # for idx, foods in enumerate(foods): # use the enumerate with tuples
 #     print( "food goes here is a good food")
-
+for food in foods:
+    print(f'{food} is a gooood food')
 #3
 
 for i in range(-1,-3,-1):
     print(f'{foods[i]}')
+
 #4 Create a dictionary named home_towncontaining the keys of city, stateand population.
 # Print a string with this format:
 # "I was born in city, state - population of population"
