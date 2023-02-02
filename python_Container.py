@@ -36,6 +36,13 @@ print(f"I was born in {home_town['city']}, {home_town['state']} - population of 
 for x,val in home_town.items():
     print(f"{x} = {val}")
 #6
-
+cohort=[]
+if len (students) == len(foods):
+    l = len(students)
+    for i in range(l):
+        cohort.append(dict(student=students[i], fav_foods=foods[i]))
+        for student_dict in cohort:
+            print(student_dict)
 #7
+
 #8
